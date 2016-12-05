@@ -28,7 +28,7 @@
 
   <properties>
    
-    <sonia-portal-system.version>2.0.7</sonia-portal-system.version>
+    <sonia-portal-system.version>1.0.0-SNAPSHOT</sonia-portal-system.version>
     
   </properties>
   
