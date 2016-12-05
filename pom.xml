@@ -6,7 +6,7 @@
   <parent>
     <groupId>de.sonia.maven</groupId>
     <artifactId>sonia-maven-parent</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>1</version>
   </parent>
 
   <groupId>de.sonia.portal</groupId>
@@ -19,7 +19,7 @@
   <dependencies>
     
     <dependency>
-      <groupId>sonia.portal.system</groupId>
+      <groupId>de.sonia.portal.system</groupId>
       <artifactId>sonia-portal-system</artifactId>
       <version>${sonia-portal-system.version}</version>
     </dependency>
