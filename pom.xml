@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>sonia.maven</groupId>
+    <artifactId>sonia-maven-parent</artifactId>
+    <version>19</version>
+  </parent>
+
+  <groupId>sonia.portal</groupId>
+  <artifactId>sonia-portal-parent-base</artifactId>
+  <packaging>pom</packaging>
+  <version>20-SNAPSHOT</version>
+  <name>${project.artifactId}</name>
+  <url>https://code.ostfalia.de/projects/${project.groupId}/${project.artifactId}</url>
+ 
+  <dependencies>
+    
+    <dependency>
+      <groupId>sonia.portal.system</groupId>
+      <artifactId>sonia-portal-system</artifactId>
+      <version>${sonia-portal-system.version}</version>
+    </dependency>
+ 
+  </dependencies>
+
+  <properties>
+   
+    <sonia-portal-system.version>2.0.7</sonia-portal-system.version>
+    
+  </properties>
+  
+</project>
