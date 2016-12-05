@@ -4,17 +4,17 @@
   <modelVersion>4.0.0</modelVersion>
   
   <parent>
-    <groupId>sonia.maven</groupId>
+    <groupId>de.sonia.maven</groupId>
     <artifactId>sonia-maven-parent</artifactId>
-    <version>19</version>
+    <version>1-SNAPSHOT</version>
   </parent>
 
-  <groupId>sonia.portal</groupId>
+  <groupId>de.sonia.portal</groupId>
   <artifactId>sonia-portal-parent-base</artifactId>
   <packaging>pom</packaging>
-  <version>20-SNAPSHOT</version>
+  <version>1-SNAPSHOT</version>
   <name>${project.artifactId}</name>
-  <url>https://code.ostfalia.de/projects/${project.groupId}/${project.artifactId}</url>
+  <url>https://github.com/campussource-liferay-portlets/${project.artifactId}</url>
  
   <dependencies>
     
