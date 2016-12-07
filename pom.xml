@@ -15,7 +15,48 @@
   <version>2</version>
   <name>${project.artifactId}</name>
   <url>https://github.com/campussource-liferay-portlets/${project.artifactId}</url>
+
+  <description>POM for clearing recursive dependency with sonia-system-library</description>
+
+  <organization>
+    <name>Ostfalia - University of Applied Sciences</name>
+    <url>http://www.ostfalia.de/</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Versino 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>thorsten-l</id>
+      <name>Thorsten Ludewig</name>
+      <email>t.ludewig@ostfalia.de</email>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+  </developers>
+
+  <mailingLists>
+    <mailingList>
+      <name>CSIT</name>
+      <post>csit@ostfalia.de</post>
+    </mailingList>
+  </mailingLists>
+  
+  <prerequisites>
+    <maven>3.0.0</maven>
+  </prerequisites>
+  
+  <scm>
+    <connection>scm:git:https://github.com/campussource-liferay-portlets/sonia-portal-parent-base</connection>
+    <developerConnection>scm:git:https://github.com/campussource-liferay-portlets/sonia-portal-parent-base</developerConnection>
+    <url>https://github.com/campussource-liferay-portlets/sonia-portal-parent-base</url>
+  </scm>
  
+   
   <dependencies>
     
     <dependency>
